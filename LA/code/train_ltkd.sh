@@ -5,7 +5,7 @@ USE_PWS=""
 USE_PSW=""
 USE_PSS="--use_pss"
 
-python train_cross_match.py \
+python train_cross_match_tkd.py \
 --exp "25_75_AdamW_9000_lab8_tkd1" \
 --conf_thresh 0.85 \
 --label_num 8 \
@@ -21,7 +21,7 @@ USE_PWS="--use_pws"
 USE_PSW="--use_psw"
 USE_PSS=""
 
-python train_cross_match.py \
+python train_cross_match_tkd.py \
 --exp "25_75_AdamW_9000_lab8_tkd2" \
 --conf_thresh 0.85 \
 --label_num 8 \
@@ -37,7 +37,7 @@ USE_PWS="--use_pws"
 USE_PSW="--use_psw"
 USE_PSS="--use_pss"
 
-python train_cross_match.py \
+python train_cross_match_tkd.py \
 --exp "25_75_AdamW_9000_lab8_tkd3" \
 --conf_thresh 0.85 \
 --label_num 8 \
@@ -53,7 +53,7 @@ USE_PWS=""
 USE_PSW="--use_psw"
 USE_PSS="--use_pss"
 
-python train_cross_match.py \
+python train_cross_match_tkd.py \
 --exp "25_75_AdamW_9000_lab8_tkd4" \
 --conf_thresh 0.85 \
 --label_num 8 \
@@ -69,7 +69,7 @@ USE_PWS="--use_pws"
 USE_PSW=""
 USE_PSS="--use_pss"
 
-python train_cross_match.py \
+python train_cross_match_tkd.py \
 --exp "25_75_AdamW_9000_lab8_tkd5" \
 --conf_thresh 0.85 \
 --label_num 8 \
@@ -85,7 +85,7 @@ USE_PWS="--use_pws"
 USE_PSW="--use_psw"
 USE_PSS=""
 
-python train_cross_match.py \
+python train_cross_match_tkd.py \
 --exp "25_75_AdamW_9000_lab8_tkd6" \
 --conf_thresh 0.85 \
 --label_num 8 \
@@ -101,7 +101,7 @@ USE_PWS="--use_pws"
 USE_PSW="--use_psw"
 USE_PSS="--use_pss"
 
-python train_cross_match.py \
+python train_cross_match_tkd.py \
 --exp "25_75_AdamW_9000_lab8_tkd7" \
 --conf_thresh 0.85 \
 --label_num 8 \
